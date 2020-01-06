@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4cb3d36-9948-4b68-a76c-9a55912a0cb9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/AlternateOptimization/FilterOutliers2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/PrepareData1487/011_SkelDataWithGeodesicCleanSupportMarianne.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/PrepareData1487/012_PadData1487.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/PrepareData1487/012_PadSkelDataWithGeodesicCleanSupportMarianne.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/PrepareData1487/013_MarianneXPose.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06_Deformation/MeshInterpolation/CutChunkFIle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06_Deformation/MeshInterpolation/InterpolateWeightsForManuallyCompletedMesh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06_Deformation/MeshInterpolation/RecoverFleshDeformation3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06_Deformation/MeshInterpolation/RecoverFleshDeformation4RegularLaplacian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/SMPL_OPT_4_KateyModel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/SMPL_OPT_5_ToCompleteActorModell.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_Calibration/TranslateCalibration/ReadCalib.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_Calibration/TranslateCalibration/ReadCalib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_Pipeline/GenerateModelSequenceMesh7/GenerateDebuggingData2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_Pipeline/GenerateModelSequenceMesh7/GenerateDebuggingData2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_Pipeline/GenerateModelSequenceMesh7/Reconstruction.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_Pipeline/GenerateModelSequenceMesh7/Reconstruction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_Pipeline/GenerateModelSequenceMesh7/run4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_Pipeline/GenerateModelSequenceMesh7/run4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/AlternateOptimization/AlternateOptimizeRestPose2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/AlternateOptimization/AlternateOptimizeRestPose2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/AlternateOptimization/CornersFitReducedBatchedQuaternionTCWithInit.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/AlternateOptimization/CornersFitReducedBatchedQuaternionTCWithInit.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/AlternateOptimization/FindOutliers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/AlternateOptimization/FindOutliers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/AlternateOptimization/GenerateQuadsStructure.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/AlternateOptimization/GenerateQuadsStructure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/AlternateOptimization/PrepareChunkedFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/AlternateOptimization/PrepareChunkedFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/AlternateOptimization/RunFit.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/AlternateOptimization/RunFit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/AlternateOptimization/VisualizeMeshModification.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/AlternateOptimization/VisualizeMeshModification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/CornersFitReducedBatched/CornersReducedFittingCost.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/CornersFitReducedBatched/CornersReducedFittingCost.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/CornersFitReducedBatchedQuaternionTCWithInit/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/CornersFitReducedBatchedQuaternionTCWithInit/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/MapTargetPtsBackToRestPose/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/MapTargetPtsBackToRestPose/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/PrepareData1487/PrepareChunkedFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/PrepareData1487/PrepareChunkedFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/PrepareData1487/SMPLMeshLessJoints.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/PrepareData1487/SMPLMeshLessJoints.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/PrepareData1487/SMPL_reimp" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/PrepareData1487/SMPL_reimp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/PrepareData1487/UnpackChunkedFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/PrepareData1487/UnpackChunkedFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/PrepareData1487/obj2vtk.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/PrepareData1487/obj2vtk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/TestData/SMPL_reimp" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/CeresSkelFit/TestData/SMPL_reimp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/MeshInterpolation/CornersFitReducedBatchedQuaternionTCWithInit.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/MeshInterpolation/CornersFitReducedBatchedQuaternionTCWithInit.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/MeshInterpolation/CornersFitReducedQuaternionFToF1487V2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/MeshInterpolation/CornersFitReducedQuaternionFToF1487V2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/MeshInterpolation/InterpolateRestposeFleshDeformationDisplacement.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/MeshInterpolation/InterpolateRestposeFleshDeformationDisplacement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/MeshInterpolation/LaplacianMesh.ply" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/MeshInterpolation/LaplacianMesh.ply" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/MeshInterpolation/MapTargetPtsBackToRestPose.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/MeshInterpolation/MapTargetPtsBackToRestPose.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/MeshInterpolation/RecoverFleshDeformation2Chunked.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/MeshInterpolation/RecoverFleshDeformation2Chunked.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/CompleteLBSModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/CompleteLBSModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/MarianneFit/CompleteLBS/RestposeVerts000.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/MarianneFit/CompleteLBS/RestposeVerts000.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/MarianneFit/CompleteLBS/RestposeVerts000.vtk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/MarianneFit/CompleteLBS/Target_000_Fit.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/MarianneFit/CompleteLBS/Target_000_Fit.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/MarianneFit/CompleteLBS/Target_001.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/MarianneFit/CompleteLBS/Target_001.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/MarianneFit/ICP_RegisterCorrs.vtk" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/MarianneFit/ICP_RegisterCorrs.vtk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/MarianneFit/Restpose_ICP_Register.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/MarianneFit/Restpose_ICP_Register.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/OptimizeForSkeletonMotion.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/OptimizeForSkeletonMotion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/RegisterCornersToSMPL.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/RegisterCornersToSMPL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/RegisterCornersToSMPL2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/RegisterCornersToSMPL2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/SMPL_OPT_toTemplate3_ICP_triangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/SMPL_OPT_toTemplate3_ICP_triangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/SMPL_reimp" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/SMPL_reimp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/StatisticsOnCapture.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/StatisticsOnCapture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/SubDivisionSMPL.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/SubDivisionSMPL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/cornersOnsmpl.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_Deformation/SMPLOptimization/cornersOnsmpl.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07_Debug/SelectCertainFrames.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../07_Debug/SelectCertainFrames.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07_Debug/VisulizeCornerLocation/VisualizeCornerLocationPDF.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../07_Debug/VisulizeCornerLocation/VisualizeCornerLocationPDF.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12_Prediction/fancyimpute" beforeDir="false" afterPath="$PROJECT_DIR$/../../12_Prediction/fancyimpute" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Design2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9044">
+              <caret line="484" column="41" selection-start-line="484" selection-start-column="11" selection-end-line="484" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Design3NoMargin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="553">
+              <caret line="548" column="31" selection-start-line="548" selection-start-column="23" selection-end-line="548" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VisualizeNotCodeCorners.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Production3/suitNoMarginDalition1_5_withNoCodeCorner.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4294">
+              <caret line="226" column="27" selection-start-line="226" selection-start-column="27" selection-end-line="226" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Template2_clean.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contour.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FontTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="35" column="34" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/PIL/ImageFont.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4446">
+              <caret line="237" selection-start-line="237" selection-end-line="237" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/PIL/ImageDraw.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4978">
+              <caret line="266" selection-start-line="266" selection-end-line="266" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dot-grid-5x5_1536x1536.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>squareSizeInPixels</find>
+      <find>self.config</find>
+      <find>cornersInt</find>
+      <find>remo</find>
+      <find>json</find>
+      <find>corner</find>
+      <find>suitMaskkDilation</find>
+      <find>&quot;codeWhite&quot;: &quot;&quot;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>self.squareSizeInPixels</replace>
+      <replace>self._config</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/FontTest.py" />
+        <option value="$PROJECT_DIR$/Design.py" />
+        <option value="$PROJECT_DIR$/Design2.py" />
+        <option value="$PROJECT_DIR$/Design3NoMargin.py" />
+        <option value="$PROJECT_DIR$/VisualizeNotCodeCorners.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="132" />
+    <option name="y" value="-12" />
+    <option name="width" value="2184" />
+    <option name="height" value="1317" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SuitDesign1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuitDesign1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SuitDesign1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuitDesign1" type="462c0819:PsiDirectoryNode" />
+              <item name="Production3" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DotsRecognition" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.VisualizeNotCodeCorners">
+    <configuration name="Design" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SuitDesign1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Design.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Design2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SuitDesign1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Design2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Design3NoMargin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SuitDesign1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Design3NoMargin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FontTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SuitDesign1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FontTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="VisualizeNotCodeCorners" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SuitDesign1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VisualizeNotCodeCorners.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.VisualizeNotCodeCorners" />
+        <item itemvalue="Python.Design3NoMargin" />
+        <item itemvalue="Python.Design2" />
+        <item itemvalue="Python.Design" />
+        <item itemvalue="Python.FontTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4cb3d36-9948-4b68-a76c-9a55912a0cb9" name="Default Changelist" comment="" />
+      <created>1557779166281</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557779166281</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="88" y="-7" width="2479" height="1455" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16339067" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25245655" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39909297" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32914045" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16339067" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25245655" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32914045" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Design.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Design3NoMargin.py</url>
+          <line>267</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-313451744/numpy/core/umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64885">
+          <caret line="3415" column="4" selection-start-line="3415" selection-start-column="4" selection-end-line="3415" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-313451744/numpy/core/multiarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84531">
+          <caret line="4449" column="8" selection-start-line="4449" selection-start-column="8" selection-end-line="4449" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/numpy/lib/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85025">
+          <caret line="4475" column="4" selection-start-line="4475" selection-start-column="4" selection-end-line="4475" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10488">
+          <caret line="552" selection-start-line="552" selection-end-line="552" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/pkgs/pillow-5.2.0-py37h08bbbbd_0/Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="1256" column="8" selection-start-line="1256" selection-start-column="8" selection-end-line="1256" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dot-grid-3x3_768x768.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-313451744/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4772" column="4" selection-start-line="4772" selection-start-column="4" selection-end-line="4772" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template1.jpg" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35834">
+          <caret line="1891" column="8" selection-start-line="1891" selection-start-column="8" selection-end-line="1891" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suitBlank.png" />
+    <entry file="file://$PROJECT_DIR$/suitBlankDilation.png" />
+    <entry file="file://$PROJECT_DIR$/suitWithChb.png" />
+    <entry file="file://$PROJECT_DIR$/Template1_clean.psd">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33060">
+          <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4674">
+          <caret line="256" column="8" selection-start-line="256" selection-start-column="8" selection-end-line="256" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lena.bmp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9044">
+          <caret line="484" column="41" selection-start-line="484" selection-start-column="11" selection-end-line="484" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Production3/suitNoMarginDalition1_5_withNoCodeCorner.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4294">
+          <caret line="226" column="27" selection-start-line="226" selection-start-column="27" selection-end-line="226" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template2_clean.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contour.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FontTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/PIL/ImageFont.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4446">
+          <caret line="237" selection-start-line="237" selection-end-line="237" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/PIL/ImageDraw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4978">
+          <caret line="266" selection-start-line="266" selection-end-line="266" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dot-grid-5x5_1536x1536.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VisualizeNotCodeCorners.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design3NoMargin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="548" column="31" selection-start-line="548" selection-start-column="23" selection-end-line="548" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
